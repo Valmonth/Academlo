@@ -1,6 +1,6 @@
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
-    nav ul{
+    /* nav ul{
         display: grid;
         list-style: none;
         text-align: center;
@@ -10,7 +10,7 @@
         left: 0;
         top: 100%;
         margin: 0;
-    }
+    } */
 
     nav button{
         border: 0;

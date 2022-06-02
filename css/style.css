@@ -1,27 +1,27 @@
 body{
     margin: 0;
     background-color: rgb(1, 6, 29);
+    box-sizing: border-box;
 }
 
 nav{
     position: relative;
-    
-    
+    text-align: right;
 }
+
 .nav li {
     list-style: none;
     display: inline;
     padding: 2%;
+    
   }
 
-nav ul{
-    
-}
-nav a{
+.nav a{
     text-decoration: none;
     color: white;
-    background-color: red;
+    
 }
+
 .hidden{
     display: none;
 }
@@ -31,10 +31,24 @@ p{
 }
 
 .home{
-  display: grid;
-  align-items: center; 
+    display: flex;
+    padding-top: 2rem;
 }
 
-.redes{
-   
+.name{
+    position: absolute;
+    color: white;
 }
+.img{
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+      
+}
+
+.exp{
+    position: absolute;
+    color: white;
+    left: 40%;
+}
+
