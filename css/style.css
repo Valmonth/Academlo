@@ -110,11 +110,55 @@ p{
 }
 
 .servicios{
-    position: absolute;
-    top: 45rem;
+    position: relative;
+    top: 35rem;
     text-align: center;
+    
 }
 
 .servicios h2{
+    
     color: #4AB2BF;
 }
+
+.habilidad{
+    position: relative;
+    top: 35rem;
+    
+}
+
+.habilidad h2{
+    text-align: center;
+    color: #4AB2BF;
+}
+
+.h-barras{
+    position: absolute;
+    margin-left: 22px;
+    color: white;
+}
+
+.p-bar {
+    background: white;
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 20px;
+    width: 18rem;
+  }
+.p-bar-pro{
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #4AB2BF;
+    height: 20px;
+    width: 0;
+}
+
+@keyframes load {
+    0% { width: 0; }
+    100% { width: 80%; }
+  }
