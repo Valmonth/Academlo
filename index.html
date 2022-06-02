@@ -10,10 +10,10 @@
 </head>
 <body>
     <nav  class="nav">
-       <!--  <button onclick="toggleMenu()">
+        <button onclick="toggleMenu()">
             <img src="./img/menu.svg">
-        </button> -->
-       <ul id="nav" class="">
+        </button>
+       <ul id="nav" class="hidden">
         <li><a href="#">Inicio</a></li>
         <li><a href="#">Servicios</a></li>
         <li><a href="#">Acerca de mí</a></li>
@@ -24,16 +24,47 @@
     </nav>
 
 <div class="home">
-    <div class="name">Soy James</div>
-
-    <div class="img">
-        <img src="./img/person.png">
+    <div class="name">Soy <span>James</span>
+        <hr>
+        <p>Full Stack Developer</p>
     </div>
 
-    <div class="exp">3 años de experiencia</div>
-    
+    <div class="img">
+        <img class="profile" src="./img/person.png">
+    </div>
+
+    <div class="exp"><span>3 años</span> experiencia</div>
+    <div class="exp social">
+        <img src="./img/cib_linkedin-in.svg">
+        <img src="./img/ant-design_instagram-filled.svg">
+        <img src="./img/ant-design_twitter-outlined.svg">
+    </div>
+
 </div>
-  
+  <div class="icons">
+    <img src="./img/ant-design_instagram-filled.svg">
+    <img src="./img/ant-design_twitter-outlined.svg">
+    <img src="./img/cib_linkedin-in.svg">
+  </div>
+
+  <div class="about">
+      <h2>Acerca de mí</h2>
+      <p>Vivo una vida buscando incrementar mis conocimiento y rompiendo las barreras</p>
+      <p>Moviendome siempre hacia adelante</p>
+  </div>
+
+  <div class="servicios">
+      <h2>Servicios</h2>
+      <div>
+          card
+      </div>
+      <div>
+          card
+      </div>
+      <div>
+          card
+      </div>
+  </div>
 </body>
 <script src="./js/script.js"></script>
 </html>

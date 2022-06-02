@@ -38,17 +38,83 @@ p{
 .name{
     position: absolute;
     color: white;
+    margin-left: 7%;
+    top: 10%;
+    z-index: 999;
+    max-width: 100px;
 }
-.img{
-    position: absolute;
-    background-color: white;
-    border-radius: 50%;
-      
+.name span{
+    color: #4AB2BF;
+    font-size: 40px;
 }
 
+.img{
+    position: absolute;
+    background-color: #292C3D;
+    padding: 7%;
+    border-radius: 50%;
+    top:10%;
+    left: 9%;
+      
+}
+.profile{
+   position: static;
+   
+}
 .exp{
     position: absolute;
     color: white;
-    left: 40%;
+    top: 10%;
+    left: 70%;
+    max-width: 30%;
+}
+.exp span{
+    font-size: 19px;
+    color: #4AB2BF;
+}
+.social{
+    top: 17%;
+    left: 73%;
+}
+.social img{
+    background-color: #D0CFCC;
+    border-radius: 50%;
+    padding: 2px;
 }
 
+.icons{
+    display: inline-flex;
+    position: absolute;
+    padding: 15px;
+    top: 22rem;
+    left: 20%;
+    background-color: #292C3D;
+    border-radius: 15%;
+}
+
+.icons img{
+    margin: 2px;
+    padding: 5px 20px;
+    border-radius: 10%;
+    background-color: #D0CFCC;
+}
+
+.about{
+    position: absolute;
+    top: 30rem;
+    text-align: center;
+}
+
+.about h2{
+    color: #4AB2BF;
+}
+
+.servicios{
+    position: absolute;
+    top: 45rem;
+    text-align: center;
+}
+
+.servicios h2{
+    color: #4AB2BF;
+}
