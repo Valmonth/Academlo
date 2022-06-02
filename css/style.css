@@ -3,27 +3,24 @@ body{
     background-color: rgb(1, 6, 29);
 }
 
-.mm{
-    color: white;
-}
 nav{
-    text-align: right;
-    padding: 1rem 3rem;
     position: relative;
     
+    
 }
-nav ul{
-    display: inline-flex;
-    color: white;
+.nav li {
     list-style: none;
-    background-color: rgb(244, 0, 98);
+    display: inline;
+    padding: 2%;
+  }
+
+nav ul{
+    
 }
-
-
-a:link, a:visited,  a:hover, a:active{
+nav a{
     text-decoration: none;
     color: white;
-    
+    background-color: red;
 }
 .hidden{
     display: none;
