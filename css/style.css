@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    background-color: rgb(1, 6, 29);
+}
+
+.mm{
+    color: white;
+}
+nav{
+    text-align: right;
+    padding: 1rem 3rem;
+    position: relative;
+    
+}
+nav ul{
+    display: inline-flex;
+    color: white;
+    list-style: none;
+    background-color: rgb(244, 0, 98);
+}
+
+
+a:link, a:visited,  a:hover, a:active{
+    text-decoration: none;
+    color: white;
+    
+}
+.hidden{
+    display: none;
+}
+
+p{
+    color: white;
+}
+
+.home{
+  display: grid;
+  align-items: center; 
+}
+
+.redes{
+   
+}
