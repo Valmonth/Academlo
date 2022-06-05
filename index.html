@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Overpass:wght@400;700&display=swap">
     <title>Portafolio - Academlo</title>
 </head>
 <body>
     <nav  class="nav">
-        <button onclick="toggleMenu()">
+       <!--  <button onclick="toggleMenu()">
             <img src="./img/menu.svg">
-        </button>
+        </button> -->
        <ul id="nav" class="hidden">
         <li><a href="#">Inicio</a></li>
         <li><a href="#">Servicios</a></li>
@@ -28,23 +30,23 @@
         <hr>
         <p>Full Stack Developer</p>
     </div>
-
     <div class="img">
-        <img class="profile" src="./img/person.png">
+        <img class="profile" src="./img/person.png" alt="yo">
     </div>
-
     <div class="exp"><span>3 años</span> experiencia</div>
-    <div class="exp social">
-        <img src="./img/cib_linkedin-in.svg">
-        <img src="./img/ant-design_instagram-filled.svg">
-        <img src="./img/ant-design_twitter-outlined.svg">
+    <div class="social">
+        <span class="item-1"><img src="./img/cib_linkedin-in.svg"></span>
+        <span class="item-2"><img src="./img/ant-design_instagram-filled.svg"></span>
+        <span class="item-3"><img src="./img/ant-design_twitter-outlined.svg"></span>
     </div>
-
 </div>
+
   <div class="icons">
-    <img src="./img/ant-design_instagram-filled.svg">
-    <img src="./img/ant-design_twitter-outlined.svg">
-    <img src="./img/cib_linkedin-in.svg">
+      <div class="icon">
+        <img class="icimg" src="./img/g.png">
+        <img class="icimg" src="./img/a.png">
+        <img class="icimg" src="./img/s.png">
+      </div>
   </div>
 
   <div class="about">
@@ -55,63 +57,70 @@
 
   <div class="servicios">
       <h2>Servicios</h2>
-      <div class="slideshow-container">
-
-        <div class="mySlides fade">
-        
-          <img src="./img/p01.jpg" style="width:100%">
-          <div class="text">Caption Text</div>
-        </div>
-        
-        <div class="mySlides fade">
-          
-          <img src="./img/p02.jpg" style="width:100%">
-          <div class="text">Caption Two</div>
-        </div>
-        
-        <a class="prev" onclick="plusSlides(-1)">❮</a>
-        <a class="next" onclick="plusSlides(1)">❯</a>
-        
-        </div>
-  </div>
+      <div class="grider">
+       <div class="item">
+          <img  class="service" src="./img/lapiz.svg"> 
+          <h3>UX/UI Design</h3>
+          <p>Desde diseño hasta implementación del desarrollo</p>
+       </div>
+       <div class="item">
+        <img src="./img/altavoz.svg">
+        <h3>Marketing</h3> 
+        <p>Desde diseño hasta implementación del desarrollo</p>
+       </div>
+       <div class="item">
+        <img src="./img/lupa.svg">
+        <h3>Research</h3> 
+        <p>Desde diseño hasta implementación del desarrollo</p>
+       </div>
+    </div>
+ </div>
 
   <div class="habilidad">
       <h2>Mis habilidades</h2>
      <div class="h-barras">
          <h3>Javascript</h3>
-         <div>80%</div>
+         <div>60%</div>
          <div class="p-bar">
-            <div class="p-bar-pro"></div>
+            <div class="p-bar-1"></div>
          </div>
          <h3>HTML</h3>
          <div>90%</div>
          <div class="p-bar">
-            <div class="p-bar-pro"></div>
+            <div class="p-bar-2"></div>
          </div>
          <h3>CSS</h3>
          <div>50%</div>
          <div class="p-bar">
-             <div class="p-bar-pro"></div>
+             <div class="p-bar-3"></div>
          </div>
      </div>
   </div>
 <div class="porta">
     <h2>Mi portafolio</h2>
     <div>
-        <div>CARD</div>
-        <div>CARD</div>
-        <div>CARD</div>
-    </div>
-</div>
-<div>
+          <img src="./img/p01.jpg" > 
+          <img src="./img/p02.jpg" >  
+          <img src="./img/p01.jpg" >    
+    
+     </div>
+<div class="contacto">
     <h2>Contacto</h2>
-    <div>
-        <div>CARD</div>
-        <div>CARD</div>
+ <div class="card-p">
+    <div class="card phone">
+        <img  src="./img/phone 3.svg">
+        <h3>Número</h3>
+        <p>+506-33333333</p>
     </div>
+    <div class="card mail">
+        <img src="./img/mail 3.svg">
+        <h3>Email</h3>
+        <p>valmonth@gmail.com</p>
+  </div>
 </div>
-<footer>
-    <h2>Hecho con & en Academlo</h2>
+</div>
+<footer class="pie">
+    <h2>Hecho con <img src="https://static.vecteezy.com/system/resources/thumbnails/001/188/163/small/heart.png"> en Academlo</h2>
 </footer>
 </body>
 <script src="./js/script.js"></script>
