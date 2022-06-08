@@ -124,8 +124,8 @@
     }
 }
 
-
-@media (min-width: 992px) {
+/* media query 1000px */
+@media (min-width: 1000px) {
     .home{
         position: relative;
         top: 3rem;
@@ -134,19 +134,105 @@
 
     .name{
         color: rgb(255, 255, 255);
-        margin-left: 25rem;
+        margin-left: 10rem;
         max-width: 10%;
         z-index: 1;
     }
     
     .name span{
         color: #34B0BE;
-        font-size: 120px;
+        font-size: 80px;
     }
     
     .img{
        position: relative;
        left: 4rem;
+
+    }
+    
+    .profile{
+        background-color: #282B3C;
+        border-radius: 50%;
+        width: 400px;
+        height: 400px;
+    }
+    
+    .exp{
+        position: relative;
+        color: white;
+        left: 15rem;
+        font-size: 45px;
+        max-width: 20%;
+    }
+    
+    .exp span{
+        color: #34B0BE;
+    }
+    .social{
+        position: absolute;
+        top: 6.5rem;
+        right: 6rem;;
+        display: inline-flex;
+    }
+    .items{
+        margin: 5px;
+        width: 30px;
+        height: 30px;
+        z-index: 1;
+        border: 2px solid #D1CECA;
+        border-radius: 50%;
+        background-color: #D1CECA;
+     }
+     .items img{
+         width: 20px;
+         height: 20px;
+         position: relative;
+         bottom: 16px;
+         left: 3px;
+     }
+    .icons{
+        position: relative;
+        text-align: center;
+        background-color: #282B3C;
+        padding: 1%;
+        max-width: 50%;
+        left: 16.5rem;
+        
+    }
+    
+    .icimg{
+        width: 20%;
+        margin: 10px;
+        background-color: #D1CECA;
+        padding: 5px 25px 5px 25px;
+        border-radius: 20%;
+    }
+}
+
+
+/* media query 1200px */
+@media (min-width: 1200px) {
+    .home{
+        position: relative;
+        top: 3rem;
+        
+    }
+
+    .name{
+        color: rgb(255, 255, 255);
+        margin-left: 10rem;
+        max-width: 10%;
+        z-index: 1;
+    }
+    
+    .name span{
+        color: #34B0BE;
+        font-size: 100px;
+    }
+    
+    .img{
+       position: relative;
+       left: 12rem;
 
     }
     
@@ -160,8 +246,8 @@
     .exp{
         position: relative;
         color: white;
-        left: 11rem;
-        font-size: 45px;
+        left: 29rem;
+        font-size: 55px;
         max-width: 20%;
     }
     
@@ -170,33 +256,33 @@
     }
     .social{
         position: absolute;
-        top: 7.5rem;
-        right: 9rem;;
+        top: 8.5rem;
+        right: 6rem;;
         display: inline-flex;
     }
     .items{
         margin: 5px;
-        width: 60px;
-        height: 60px;
+        width: 30px;
+        height: 30px;
         z-index: 1;
         border: 2px solid #D1CECA;
         border-radius: 50%;
         background-color: #D1CECA;
      }
      .items img{
-         width: 50px;
-         height: 50px;
+         width: 20px;
+         height: 20px;
          position: relative;
-         bottom: -5px;
-         left: 5px;
+         bottom: 26px;
+         left: 3px;
      }
     .icons{
         position: relative;
         text-align: center;
         background-color: #282B3C;
         padding: 1%;
-        max-width: 30%;
-        left: 38.5rem;
+        max-width: 50%;
+        left: 22.5rem;
         
     }
     
