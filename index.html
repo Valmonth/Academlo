@@ -11,102 +11,150 @@
     <title>Portafolio - Academlo</title>
 </head>
 <body>
-    <nav  class="nav">
-       <!--  <button onclick="toggleMenu()">
+    <nav>
+        <button onclick="toggleMenu()">
             <img src="./img/menu.svg">
-        </button> -->
-       <ul id="nav" class="hidden">
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Servicios</a></li>
-        <li><a href="#">Acerca de mí</a></li>
-        <li><a href="#">Mis habilidades</a></li>
-        <li><a href="#">Mi portafolio</a></li>
-        <li><a href="#">Contacto</a></li>
-       </ul>
+        </button>
+        <ul class="hidden" id="nav">
+            <li>
+                <a href="#">Inicio</a>
+            </li>
+            <li>
+                <a href="#">Servicios</a>
+            </li>
+            <li>
+                <a href="#">Acerca de mí</a>
+            </li>
+            <li>
+                <a href="#">Mi portafolio</a>
+            </li>
+            <li>
+                <a href="#">Contacto</a>
+            </li>
+        </ul>
     </nav>
 
-<div class="home">
-    <div class="name">Soy <span>James</span>
-        <hr>
-        <p>Full Stack Developer</p>
-    </div>
-    <div class="img">
-        <img class="profile" src="./img/person.png" alt="yo">
-    </div>
-    <div class="exp"><span>3 años</span> experiencia</div>
-    <div class="social">
-        <span class="item-1"><img src="./img/cib_linkedin-in.svg"></span>
-        <span class="item-2"><img src="./img/ant-design_instagram-filled.svg"></span>
-        <span class="item-3"><img src="./img/ant-design_twitter-outlined.svg"></span>
-    </div>
+<div class="home row">
+    <div class=" row col-12">
+        <div class="name col-3">
+            <div class="">Soy <span>James</span>
+                <hr>
+                <p>Full Stack Developer</p>
+            </div>
+        </div>
+        
+        <div class="img col-4">
+            <div class="">
+                
+                <img class="profile" src="./img/person.png" alt="yo">
+            </div>
+        </div>
+    
+        <div class="exp col-3">
+            <div class=""><span>3 años</span> experiencia</div>
+             <div class="social">
+            <span class="items item-1"><img src="./img/cib_linkedin-in.svg"></span>
+            <span class="items item-2"><img src="./img/ant-design_instagram-filled.svg"></span>
+            <span class="items item-3"><img src="./img/ant-design_twitter-outlined.svg"></span>
+             </div>
+          </div>
+    
+        </div>
+        <div class="col-12">
+            <div class="icons">
+             <div class="icon">
+              <img class="icimg" src="./img/g.png">
+              <img class="icimg" src="./img/a.png">
+              <img class="icimg" src="./img/s.png">
+             </div>
+            </div>
+        </div>
 </div>
 
-  <div class="icons">
-      <div class="icon">
-        <img class="icimg" src="./img/g.png">
-        <img class="icimg" src="./img/a.png">
-        <img class="icimg" src="./img/s.png">
-      </div>
-  </div>
-
-  <div class="about">
-      <h2>Acerca de mí</h2>
-      <p>Vivo una vida buscando incrementar mis conocimiento y rompiendo las barreras</p>
-      <p>Moviendome siempre hacia adelante</p>
-  </div>
-
-  <div class="servicios">
+ 
+<section class="row about">
+    <div class="col-12 abtext">
+        <h2>Acerca de mí</h2>
+        <p>Vivo una vida buscando incrementar mis conocimiento y rompiendo las barreras</p>
+        <p>Moviendome siempre hacia adelante</p>
+    </div> 
+</section>
+ 
+      
+  
+<section class="row servicios">
+ <div class="col-12 ">
       <h2>Servicios</h2>
-      <div class="grider">
-       <div class="item">
-          <img  class="service" src="./img/lapiz.svg"> 
-          <h3>UX/UI Design</h3>
-          <p>Desde diseño hasta implementación del desarrollo</p>
+      <div class="grid-container">
+        <div class="item">
+            <div class="scard">
+            <img  src="./img/lapiz.svg"> 
+            <h3>UX/UI Design</h3>
+            <p>Desde diseño hasta implementación del desarrollo</p>
+        </div>
        </div>
        <div class="item">
+        <div class="scard">
         <img src="./img/altavoz.svg">
         <h3>Marketing</h3> 
         <p>Desde diseño hasta implementación del desarrollo</p>
+        </div>
        </div>
        <div class="item">
+        <div class="scard">
         <img src="./img/lupa.svg">
         <h3>Research</h3> 
         <p>Desde diseño hasta implementación del desarrollo</p>
        </div>
+       </div>
     </div>
  </div>
-
-  <div class="habilidad">
+</section>
+ 
+<section class="row habilidad">
+  <div class="col-12">
       <h2>Mis habilidades</h2>
      <div class="h-barras">
          <h3>Javascript</h3>
          <div>60%</div>
+         <div class="barras">
          <div class="p-bar">
             <div class="p-bar-1"></div>
+        </div>
          </div>
          <h3>HTML</h3>
          <div>90%</div>
-         <div class="p-bar">
-            <div class="p-bar-2"></div>
-         </div>
+         <div class="barras">
+            <div class="p-bar">
+               <div class="p-bar-2"></div>
+           </div>
+            </div>
          <h3>CSS</h3>
          <div>50%</div>
-         <div class="p-bar">
-             <div class="p-bar-3"></div>
-         </div>
-     </div>
+         <div class="barras">
+            <div class="p-bar">
+               <div class="p-bar-3"></div>
+           </div>
+            </div>
   </div>
-<div class="porta">
+
+</section>
+
+
+<section class="row porta">
+<div class="col-12">
     <h2>Mi portafolio</h2>
     <div>
-          <img src="./img/p01.jpg" > 
-          <img src="./img/p02.jpg" >  
-          <img src="./img/p01.jpg" >    
-    
+          <img class="imgs" src="./img/p01.jpg" > 
+          <img class="imgs" src="./img/p02.jpg" >  
+          <img class="imgs" src="./img/p01.jpg" >    
      </div>
-<div class="contacto">
+</section>
+
+<section class="row contacto">
+<div class="col-12">
     <h2>Contacto</h2>
- <div class="card-p">
+ <div class="col-6 card-p">
     <div class="card phone">
         <img  src="./img/phone 3.svg">
         <h3>Número</h3>
@@ -119,9 +167,15 @@
   </div>
 </div>
 </div>
-<footer class="pie">
-    <h2>Hecho con <img src="https://static.vecteezy.com/system/resources/thumbnails/001/188/163/small/heart.png"> en Academlo</h2>
+</section>
+
+<section class="row pie">
+<footer class="col-12 ">
+    
+    <h2 class="base">Hecho con &#10084; en Academlo</h2>
 </footer>
+</section>
+
 </body>
 <script src="./js/script.js"></script>
 </html>

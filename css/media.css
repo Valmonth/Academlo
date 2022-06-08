@@ -1,365 +1,125 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { }
 
-@media only screen and (max-width: 400px) {
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #nav li {
+        display: inline-block;
+        margin-left: 1rem;
+    }
+    #nav {
+        display: block;
+        text-align: right;
+        background-color: transparent;
+        position: static;
+        padding: 0;
+    }
+    nav button{
+        display: none;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #nav li {
+        margin-left: 3rem;
+    }
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+@media (min-width: 992px) {
     .home{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 15rem;
+        position: relative;
+        top: 3rem;
+        
     }
 
     .name{
-        position: absolute;
-        color: white;
-        max-width: 9%;
-        padding-right: 60%;
-        padding-bottom: 10%;
+        color: rgb(255, 255, 255);
+        margin-left: 25rem;
+        max-width: 10%;
         z-index: 1;
-        left: 2rem;
-        top: 12rem;
-    }
-    .name span{
-        color: #35B0BF;
-        font-size: 130%;
-        padding-right: 10px;
-    }
-
-    .exp{
-        padding-left: 10%;
-        padding-bottom: 10%;
-        font-size: 120%;
-        left: 15rem;
-        top: 12rem;
-        
-    }
-    .exp span{
-        color: #35B0BF;
-        font-size: 100%;
     }
     
-    .social{
-        padding-left: 1%;
-        left: 17rem;
-        width: 25%;
-        top: 16rem;
+    .name span{
+        color: #34B0BE;
+        font-size: 120px;
     }
-    .social img{
-        width: 1rem;
-        padding: 5px;
-        background-color: #D2CECB;
-        border-radius: 50%;
-    }
-
+    
     .img{
-        position: absolute;
-        top: 23%;
-        left: 4rem;
-        width: 210px;
-        
-          
+       position: relative;
+       left: 4rem;
+
     }
     
     .profile{
-        width: 120%;
-        background-color: #292C3D;
+        background-color: #282B3C;
         border-radius: 50%;
-        padding: 2px;
+        width: 500px;
+        height: 500px;
     }
     
-    .icons{
-        position: relative;
-        padding-top: 7%;
-    }
-    .icon{
-        position: absolute;
-        background-color: #2A2B3D;
-        border: 10px solid #2A2B3D;
-        max-width: 28%;
-        left: 2rem;
-        padding: 5px;
-        border-radius: 10%;
-        
-    }
-    
-    .icon img{
-        left: 3%;
-        padding: 8px 25px;
-        border-radius: 20%;
-    }
-    
-    .icimg{
-        margin-left: 10px;
-        width: 10%;
-    }
-    
-    .about{
-        right: -0.9rem;
-        max-width: 35%;
-        top: 11rem;
-        font-size: 14px;
-    }
-
-    .servicios{
-        position: relative;
-        top: 15rem;
-        right: 20rem;
-    }
-    
-
-    .grider{
-        position: relative;
-        display: grid;
-        grid-template-columns: auto auto auto;
-        gap: 50px;
-        justify-content: center;
-        max-width: 40%;
-        margin-left: 30rem;
-    }
-
-    .habilidad{
-        position: relative;
-        color: white;
-        top: 23rem;
-        text-align: center;
-        right: 19rem;
-    }
-    
-    .p-bar{
-        position: relative;
-        left: 21.5rem;
-       
-      
-    }
-    
-    .porta{
-        position: relative;
-        color: white;
-        top: 27rem;
-        right: 19rem;
-        text-align: center;
-    }
-
-    .contacto{
-        position: relative;
-        top: 5rem;  
-    }
-    
-    
-    .card{
-       position: relative;
-       padding: 0.5rem;
-       margin: 20px;
-      
-    }
-    .card-p{
-        position: relative;
-        top: -5.3rem;
-        right: -1.1rem;
-    }
-    .card h3{
-       font-size: 14px;
-       color: #03051A;
-       padding: 10%;
-    }
-    
-    .card p{
-        color:grey;
-        font-size: 13px;
-    }
-    .phone{
-        padding: 2rem;
-        top: 100px;
-        
-    }
-    
-    .mail{
-        padding: 1.4rem;
-        top: 200px;
-    }
-  }
-
-
-
-@media only screen and (max-width: 600px) {
-    .home{
-        
-        padding-top: 15rem;
-    }
-
-    .name{
-        max-width: 9%;
-        padding-right: 60%;
-        padding-bottom: 10%;
-        left: 6rem;
-        top: 12rem;
-    }
-    .name span{
-        color: #35B0BF;
-        font-size: 230%;
-        padding-right: 10px;
-    }
-
     .exp{
-        padding-left: 10%;
-        padding-bottom: 10%;
-        font-size: 140%;
-        left: 21.5rem;
-        top: 11rem;
-        
+        position: relative;
+        color: white;
+        left: 11rem;
+        font-size: 45px;
+        max-width: 20%;
     }
+    
     .exp span{
-        font-size: 120%;
+        color: #34B0BE;
     }
-    
     .social{
-        padding-left: 1%;
-        left: 25rem;
-        width: 25%;
-        top: 14rem;
-    }
-    .social img{
-        width: 1rem;
-        padding: 5px;
-    }
-
-    .img{
         position: absolute;
-        top: 23%;
-        left: 8.5rem;
-        width: 210px;  
+        top: 7.5rem;
+        right: 9rem;;
+        display: inline-flex;
     }
-    
-    .profile{
-        width: 150%;
+    .items{
+        margin: 5px;
+        width: 60px;
+        height: 60px;
+        z-index: 1;
+        border: 2px solid #D1CECA;
         border-radius: 50%;
-        padding: 2px;
-    }
-    
+        background-color: #D1CECA;
+     }
+     .items img{
+         width: 50px;
+         height: 50px;
+         position: relative;
+         bottom: -5px;
+         left: 5px;
+     }
     .icons{
         position: relative;
-        padding-top: 13%;
-    }
-    .icon{
-        position: absolute;
-        max-width: 36%;
-        left: 8.4rem;
-        padding: 5px;
-        border-radius: 10%;
+        text-align: center;
+        background-color: #282B3C;
+        padding: 1%;
+        max-width: 30%;
+        left: 38.5rem;
         
-    }
-    
-    .icon img{
-        left: 3%;
-        padding: 8px 25px;
-        border-radius: 20%;
     }
     
     .icimg{
-        margin-left: 10px;
-        width: 10%;
+        width: 20%;
+        margin: 10px;
+        background-color: #D1CECA;
+        padding: 5px 25px 5px 25px;
+        border-radius: 20%;
     }
-    
-    .about{
-        right: -7.9rem;
-        max-width: 35%;
-        top: 11rem;
-        font-size: 14px;
-    }
-
-    .servicios{
-        position: relative;
-        top: 15rem;
-        right: 9rem;
-    }
-    
-
-    .grider{
-        position: relative;
-        display: grid;
-        grid-template-columns: auto auto auto;
-        gap: 50px;
-        justify-content: center;
-        max-width: 40%;
-        margin-left: 20rem;
-    }
-
-    .habilidad{
-        position: relative;
-        color: white;
-        top: 23rem;
-        text-align: center;
-        right: 8rem;
-    }
-    
-    .p-bar{
-        position: relative;
-        left: 15.5rem;
-       
-      
-    }
-    
-    .porta{
-        position: relative;
-        color: white;
-        top: 27rem;
-        right: 8rem;
-        text-align: center;
-    }
-
-    .contacto{
-        position: relative;
-        top: 5rem;  
-    }
-    
-    
-    .card{
-       position: relative;
-       padding: 0.5rem;
-       margin: 20px;
-      
-    }
-    .card-p{
-        position: relative;
-        top: -5.3rem;
-        right: -1.1rem;
-    }
-    .card h3{
-       font-size: 14px;
-       color: #03051A;
-       padding: 10%;
-    }
-    
-    .card p{
-        color:grey;
-        font-size: 13px;
-    }
-    .phone{
-        padding: 2rem;
-        top: 100px;
-        
-    }
-    
-    .mail{
-        padding: 1.4rem;
-        top: 200px;
-    }
-  }
-  
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-    
-  }
-  
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-   
-  } 
-  
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-    
-  } 
-  
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
-    
-  }
+}
