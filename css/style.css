@@ -43,7 +43,6 @@ a {
   
 
 
-<<<<<<< HEAD
 .topheader {
     position: fixed;
     background-color: var(--theme-main);
@@ -296,214 +295,6 @@ h3{
   width: 95%;
   margin: auto;
   overflow: hidden;
-=======
-.home{
-    position: relative;
-    
-    
-}
-
-.name{
-    color: white;
-    margin-left: 1rem;
-    max-width: 10%;
-    z-index: 1;
-}
-
-.name span{
-    color: #34B0BE;
-    font-size: 33px;
-}
-
-.img{
-   position: relative;
-   left: 1rem;
-   max-width: 20%;
-  
-}
-
-.profile{
-    background-color: #282B3C;
-    border-radius: 50%;
-}
-
-.exp{
-    position: relative;
-    color: white;
-    left: 10rem;
-    max-width: 25%;
-}
-
-.exp span{
-    color: #34B0BE;
-}
-.social{
-    position: absolute;
-    top: 3rem;
-    right: 1rem;;
-    display: inline-flex;
-}
-.items{
-   
-   width: 20px;
-   height: 20px;
-   z-index: 1;
-   border: 2px solid #D1CECA;
-   border-radius: 50%;
-   background-color: #D1CECA;
-}
-.items img{
-    width: 15px;
-    height: 15px;
-    position: relative;
-    bottom: -1px;
-}
-
-.icons{
-    position: absolute;
-    text-align: center;
-    background-color: #282B3C;
-    padding: 2%;
-    max-width: 70%;
-    left: 4.5rem;
-    
-}
-
-.icimg{
-    width: 20%;
-    background-color: #D1CECA;
-    padding: 5px 15px 5px 15px;
-    border-radius: 20%;
-}
-
-.about{
-    position: relative;
-    top: 5rem;
-    color: white;
-    text-align: center;
-    padding: 6px;
-}
-
-.abtext h2{
-    color: #34B0BE;
-}
-.abtext p{
-    font-weight: 100;
-}
-
-.servicios{
-    position: relative;
-    top: 5rem;
-    color: white;
-    text-align: center;
-    
-}
-.servicios h2{
-    color: #34B0BE;
-
-}
-
-.item{
-    display: flex;
-    margin: auto;
-    
-}
-.item h3{
-    color: #282B3C;
-}
-.item p{
-    scroll-snap-align: center;
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-}
-.scard{
-    background-color: rgb(253, 253, 253);
-    border-radius: 3%;
-    
-    
-}
-
-.grid-container {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: auto auto auto;
-    overflow-x: scroll;
-    
-  }
-
-.item p{
-    font-size: 16px;
-    color: gray;
-   
-  }
-
-.habilidad{
-    position: relative;
-    top: 5rem;
-    color: white;
-    text-align: center;
-    
-}
-
-.barras{
-    position: relative;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-}
-.p-bar{
-    position: absolute;
-    top: 50%;
-    left: 28.33%;
-    background-color: white;
-    width:45%;
-    height: 12px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
-
-.p-bar-1{
-    background-color: #34B0BE;
-    width:60%;
-    height: 12px;
-    border: 3px solid #34B0BE;
-    border-radius: 1%;
-    border-top-right-radius: 35px;
-    border-bottom-right-radius: 35px;
-    border-top-left-radius: 35px;
-    border-bottom-left-radius: 35px;
-}
-.p-bar-2{
-    background-color: #34B0BE;
-    width:90%;
-    height: 12px;
-    border-radius: 5%;
-    border-top-right-radius: 35px;
-    border-bottom-right-radius: 35px;
-    border-top-left-radius: 35px;
-    border-bottom-left-radius: 35px;
-}
-.p-bar-3{
-    background-color: #34B0BE;
-    width:50%;
-    height: 12px;
-    border-radius: 5%;
-    border-top-right-radius: 35px;
-    border-bottom-right-radius: 35px;
-    border-top-left-radius: 35px;
-    border-bottom-left-radius: 35px;
-}
-
-.porta{
-    position: relative;
-    top: 5rem;
-    color: white;
-    text-align: center;
-    
->>>>>>> 8f9b0ed9c1177bcf0d529e0876bc6f82be680f5e
 }
 .slider ul{
   
@@ -513,7 +304,6 @@ h3{
   animation: change 5s infinite alternate;
   animation-timing-function: ease-in;
 
-<<<<<<< HEAD
 }
 .slider li{
   width: 100%;
@@ -555,39 +345,6 @@ h3{
   text-align: center;
   padding-top: 10%;
   
-=======
-.imgs{
-    text-align: center;
-    max-width: 80%;
-}
-
-.contacto{
-    position: relative;
-    top: 5rem;
-    color: white;
-    text-align: center;
-}
-
-.card-p{
-    display: flex;
-    justify-content: center;
-    
-}
-
-.card{
-    position: relative;
-    border: 2px solid white;
-    border-radius: 5%;
-    background-color: white;
-    height: 150px;
-    width: 200px;
-}
-
-.phone{
-    position: absolute;
-    left: 15vw;
-   
->>>>>>> 8f9b0ed9c1177bcf0d529e0876bc6f82be680f5e
 }
 .contact-item img{
   width: 35%;
@@ -596,7 +353,6 @@ h3{
   color: #515252;
   font-size: 1rem;
 
-<<<<<<< HEAD
 }
 .contact-item h4{
   font-size: 1.5rem;
@@ -618,35 +374,3 @@ footer{
   padding:1% 0;   
 }
 
-=======
-.phone h3{
-    color: #242335;
-}
-.card p{
-    color: gray;
-}
-.mail{
-    position: absolute;
-    right: 15vw;
-    top: 20rem;
-    
-    
-}
-.mail h3{
-    color: #242335;
-}
-.pie{
-    position: relative;
-    top: 35rem;
-    color: white;
-    text-align: center;
-}
-
-.base{
-    background-color: #282B3C;
-    padding-bottom: 15px;
-}
-.base img{
-    max-width: 5%;
-}
->>>>>>> 8f9b0ed9c1177bcf0d529e0876bc6f82be680f5e
